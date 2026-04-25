@@ -10,8 +10,8 @@ const credenciales = [
 
 const logros = [
   { n: '20+', label: 'Años enseñando' },
-  { n: '500+', label: 'Estudiantes formados' },
-  { n: '3', label: 'Libros publicados' },
+  { n: '50+', label: 'Estudiantes formados' },
+  { n: '30+', label: 'Proyectos Realizados' },
   { n: '∞', label: 'Pasión por la Palabra' },
 ];
 
