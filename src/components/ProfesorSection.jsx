@@ -32,7 +32,7 @@ export default function ProfesorSection() {
 
           {/* Photo column */}
           <div className="profesor-photo-container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem' }}>
-            <div className="profesor-photo-frame">
+            <div className="profesor-photo-frame" style={{ width: '100%', maxWidth: '250px', aspectRatio: '3/4', borderRadius: '4px' }}>
               <img
                 src="/williamlozano.svg"
                 alt="Dr. William O. Lozano G."
@@ -42,6 +42,8 @@ export default function ProfesorSection() {
                   objectFit: 'cover',
                   display: 'block',
                   borderRadius: 'inherit',
+                  position: 'relative',
+                  zIndex: 1,
                 }}
               />
             </div>
